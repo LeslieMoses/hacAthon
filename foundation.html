@@ -1,0 +1,144 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/app.css">
+  </head>
+  <body>
+
+ <!--new 05-13-17 dashboard-->
+
+    <div class="multilevel-offcanvas off-canvas position-right" id="offCanvasRight" data-off-canvas>
+        <br>
+        <br>
+        <br>
+        <ul class="vertical menu" data-accordion-menu>
+            <li class="navMenuHead"><a href="#">Designers</a> {{!--
+                <ul class="menu vertical nested">--}}
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Meet them</a></li>
+                    <li><a href="#">Be one</a></li>
+                </ul>
+            </li>
+            <ul class="vertical menu" data-accordion-menu>
+                <li class="navMenuHead"><a href="#">Search Clothing</a> {{!--
+                    <ul class="menu vertical nested">--}}
+                        <li><a href="#">Male</a></li>
+                        <li><a href="#">Female</a></li>
+                        <li><a href="#">Children</a></li>
+                    </ul>
+                </li>
+                <ul class="vertical menu" data-accordion-menu>
+                    <li class="navMenuHead"><a href="#">You</a> {{!--
+                        <ul class="menu vertical nested">--}}
+                            <li><a href="#">Buys</a></li>
+                            <li><a href="#">Favorites</a></li>
+                        </ul>
+                    </li>
+                    <!--{{!--another menu formatting option--}} {{!--
+                    <ul class="vertical menu">
+                        <li class="off-canvas-menu-item"><a href="#">Tour</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>--}}-->
+
+                    <br>
+                    <br>
+                    <br>
+                    <ul class="menu simple social-links">
+                        <li><a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+
+                    </ul>
+   
+    <div class="nav-bar">
+        <div class="nav-bar-left">
+            <h5 class="text-center"><span id="buyFont">&nbsp;&nbsp;Buy</span>or<span id="buckFont">Buck?</span> <span id="tagFont">&nbsp;&nbsp;&nbsp;&nbsp;tell designers what you'd do...</span></h5>
+        </div>
+        <div class="nav-bar-right">
+            <ul class="menu">
+                <!--{{!--click options for main nav--}} {{!---->
+                <li class="hide-for-small-only"><a href="#">TOUR</a></li>--}}
+
+                <li>
+                    <li>
+                        <!--{{!--right side off page hidden nav--}}-->
+                        <button class="offcanvas-trigger" type="button" data-open="offCanvasRight">
+                            <span class="offcanvas-trigger-text hide-for-small-only">Menu</span>
+                            <div class="hamburger">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </div>
+                        </button>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <div class="app-dashboard-body-content off-canvas-content" data-off-canvas-content>
+        <div class="row align-center">
+            <!--{{!---->
+            <h1 class="text-center"><span id="buyFont">Buy</span>or<span id="buckFont">Buck?</span></h1>--}}
+            <!--Designer login w/ profile-->
+            <div class="card-profile-stats">
+                <div class="card-profile-stats-intro">
+                    <img class="card-profile-stats-intro-pic" src="https://pbs.twimg.com/profile_images/732634911761260544/OxHbNdTF.jpg" alt="profile-image" />
+                    <div class="card-profile-stats-intro-content">
+                        <h3>Joseph Jagger</h3>
+                        <p>Joined May 19, 2017</small>
+                        </p>
+                    </div>
+                    <!-- /.card-profile-stats-intro-content -->
+                </div>
+                <!-- /.card-profile-stats-intro -->
+
+                <hr />
+
+                <div class="card-profile-stats-container">
+                    <div class="card-profile-stats-statistic">
+                        <span class="stat">5</span>
+                        <p>Designs</p>
+                    </div>
+                    <!-- /.card-profile-stats-statistic -->
+                    <div class="card-profile-stats-statistic">
+                        <span class="stat">summerware</span>
+                        <p>Speciality</p>
+                    </div>
+                    <!-- /.card-profile-stats-statistic -->
+                    <div class="card-profile-stats-statistic">
+                        <span class="stat">joeKnowsClothes@gmail.com</span>
+                        <p>Contact</p>
+                    </div>
+                    <!-- /.card-profile-stats-statistic -->
+                </div>
+                <!-- /.card-profile-stats-container -->
+
+                <div class="card-profile-stats-more">
+                    <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+                    <div class="card-profile-stats-more-content">
+                        <p>
+                            Mr. Jagger entered the design world by first making dresses for his wife. Compliments followed, as did his blossoming career. He specializes in summerware and florals.
+                        </p>
+                    </div>
+                    <!-- /.card-profile-stats-more-content -->
+                </div>
+                <!-- /.card-profile-stats-more -->
+            </div>
+            <!-- /.card-profile-stats -->
+  
+</div>
+ 
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
